@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'ProximaNova-Bold';
+    font-weight: 700;
+    font-style: normal;
+    src: local('ProximaNova-Bold'),
+        url('../fonts/ProximaNova-Bold.woff2') format('font-woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('font-woff');
+    font-display: swap;
+}
+    
+ 
+@font-face {
+    font-family: 'ProximaNova-Semibold';
+    font-weight: 600;
+    font-style: normal;
+    src: local('ProximaNova-Semibold'),
+        url('../fonts/ProximaNova-Semibold.woff2') format('font-woff2'),
+        url('../fonts/ProximaNova-Semibold.woff') format('font-woff');
+    font-display: swap;
+} 
+ 
+@font-face {
+    font-family: 'ProximaNova-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('ProximaNova-Regular'),
+        url('../fonts/ProximaNova-RegularIt.woff2') format('font-woff2'),
+        url('../fonts/ProximaNova-RegularIt.woff') format('font-woff');
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'ProximaNova-Light';
+    font-weight: 300;
+    font-style: normal;
+    src: local('ProximaNova-Light'),
+        url('../fonts/ProximaNova-Light.woff2') format('font-woff2'),
+        url('../fonts/ProximaNova-Light.woff') format('font-woff');
+    font-display: swap;
+} 
+ 
+@font-face {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Roboto-Regular'),
+        url('../fonts/Roboto-Regular.woff2') format('font-woff2'),
+        url('../fonts/Roboto-Regular.woff') format('font-woff');
+    font-display: swap;
+}
+
+

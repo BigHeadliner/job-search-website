@@ -1,0 +1,41 @@
+  
+ 
+ html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    // min-height:100vh; 
+    color: $main-text-color;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+h1,h2,h3{ 
+  @extend %proxima-nova-700; 
+  color:#3A4562;
+}  
+
+h1{ 
+  font-size: 28px;
+}     
+
+h2{ 
+  font-size: 24px;
+}  
+ 
+h3{ 
+  font-size: 20px;
+}
+
+.container {
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 1px solid green;
+    border: 1px solid transparent;
+}
