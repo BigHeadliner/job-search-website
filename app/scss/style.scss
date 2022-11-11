@@ -23,7 +23,12 @@
       max-width: 730px; 
       line-height: 25px; 
       margin-bottom: 8px;
-    }  
+    }    
+     
+    &__item-title-hidden{ 
+       display: none; 
+       @extend %proxima-nova-400; 
+    }
      
     &__item-subtitle{ 
         @extend %proxima-nova-400; 
