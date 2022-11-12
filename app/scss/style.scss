@@ -161,7 +161,9 @@
 // -- NEXT PAGE -- //
  
 .details-contact-wrapper{ 
-  margin: 0 auto;
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: space-between;
 } 
  
 .details{   
@@ -356,7 +358,9 @@
 }  
  
 &__gallery{ 
-  position: relative;
+  position: relative; 
+  border: 1px solid transparent; 
+  margin-bottom: 147px;
 }
   
 &__gallery-title{ 
@@ -387,7 +391,11 @@
   @extend %proxima-nova-600; 
   font-size: 12px; 
   position: relative; 
-  cursor: pointer;
+  cursor: pointer; 
+  position: absolute;
+  bottom: -80px;
+  left: -83px; 
+  
 } 
  
 &__gallery-btn-decor{ 
@@ -396,7 +404,63 @@
   left: 20px;
 }
 
+} 
+  
+ 
+.contact{  
+  max-width: 403px; 
+  border-radius: 8px; 
+  overflow: hidden; 
+  margin-top: 34px;
+  &__text{ 
+    padding: 31px 57px 25px; 
+    background-image: url('../images/details-contact/contact/contact-bg.jpg'); 
+    background-position: center; 
+    background-size: cover; 
+    background-position: center;
+  }  
+
+  &__text-title{ 
+   color: #E7EAF0;  
+   line-height: 25px; 
+   margin-bottom: 9px;
+  } 
+   
+  &__text-location{ 
+    color: #E8EBF3; 
+    position: relative;  
+    margin-bottom: 7px;
+   
+  } 
+   
+  &__text-location--marked{ 
+    padding-left: 20px; 
+    border: 1px solid transparent; 
+    margin-bottom: 3px; 
+    &::before{ 
+      content: ''; 
+      width: 13px; 
+      height: 18px; 
+      background-image: url('../images/details-contact/contact/location.svg');  
+      background-position: center; 
+      background-size: cover; 
+      background-position: center; 
+      position: absolute;
+      top: 3px;
+      left: 0;
+    }
+  } 
+   
+  &__text-phone{ 
+    color: #E8EBF3; 
+    margin-bottom: 10px;
+  } 
+   
+  &__text-email{ 
+    color: #E8EBF3;
+  }
 }
+
 
 
 @import 'media'; 
