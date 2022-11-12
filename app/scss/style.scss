@@ -156,9 +156,247 @@
       display: flex;
       padding: 0 35px;
    } 
+}  
+ 
+// -- NEXT PAGE -- //
+ 
+.details-contact-wrapper{ 
+  margin: 0 auto;
 } 
  
+.details{   
+  max-width: 730px;  
+  color: #3A4562;
 
+  &__top{ 
+    height: 45px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    border-bottom: 1px solid #3A4562;  
+    margin-bottom: 40px;
+  }  
+
+  &__top-title{ 
+    margin-left: 9px;
+  }   
+
+  &__top-options{ 
+    border: 1px solid transparent; 
+    margin-right: 9px;
+  } 
+    
+  &__top-save{ 
+    color: #3A4562; 
+    padding-left: 35px; 
+    position: relative; 
+    border: 1px solid transparent; 
+    &::before{ 
+      content: ''; 
+      width: 17px; 
+      height: 20px; 
+      background-image: url('../images/details-contact/save.svg'); 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      background-position: center; 
+      position: absolute;
+      top: 1px;
+      left: 7px;
+    }
+  } 
+
+  &__top-share{ 
+    margin-left: 31px; 
+    color: #3A4562; 
+    padding-left: 35px; 
+    position: relative; 
+    border: 1px solid transparent;  
+    &::before{ 
+      content: ''; 
+      width: 17px; 
+      height: 20px; 
+      background-image: url('../images/details-contact/share.svg'); 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      background-position: center; 
+      position: absolute;
+      top: 1px;
+      left: 7px;
+    } 
+
+  } 
+   
+  &__btn{ 
+    padding: 18px 30px; 
+    border-radius: 8px;  
+    background: #384564; 
+    color:#FFF; 
+    display: inline-block; 
+    @extend %proxima-nova-600; 
+    text-transform: uppercase;
+  } 
+   
+  &__salary{ 
+   margin: 33px 0 7px; 
+   display: flex; 
+   justify-content: space-between; 
+   margin-bottom: 5px;
+ } 
+  
+  &__salary-title{ 
+    max-width: 500px; 
+    line-height: 30px; 
+    margin-bottom: 7px;
+  } 
+   
+  &__salary-date{ 
+    color: rgba(56, 65, 93, 0.355988);
+  } 
+   
+  &__salary-numbers{ 
+    margin-bottom: 3px; 
+    color: #3A4562;
+  } 
+   
+  &__intro{ 
+    margin-bottom: 40px;
+  }  
+
+  &__responsopilities-title{ 
+    margin-bottom: 25px;
+  }  
+
+  &__responsopilities-text{ 
+    margin-bottom: 35px;
+  } 
+   
+ &__compensation{ 
+  margin: 15px 0 50px; 
+ } 
+  
+ &__compensation-title{ 
+   margin-bottom: 23px; 
+   margin-bottom: 20px;
+ } 
+  
+ &__compensation-menu{ 
+   max-width: 439px;
+ }  
+  
+ &__compensation-option{ 
+   position: relative;
+ } 
+  
+ &__compensation-text{ 
+  font-size: 18px; 
+  &::before{ 
+    content: ''; 
+    width: 9px;  
+    height: 9px; 
+    background: rgba(56, 69, 100, 0.632594); 
+    position: absolute;
+    top: 5px;
+    left: -17px;
+  }
+ } 
+  
+&__info{ 
+  margin-top: 87px;
+} 
+ 
+&__info-title{   
+  padding-bottom: 9px; 
+  border-bottom: 1px solid #3A4562; 
+  margin-bottom: 15px;
+}
+ 
+&__info-subtitle{ 
+  margin-bottom: 10px;
+}  
+  
+&__info-employment{ 
+ display: flex; 
+ justify-content: space-between; 
+ align-items: center; 
+ margin-bottom: 23px;
+} 
+
+&__info-employment-item{ 
+  padding: 17px 80px; 
+  border: 1px solid rgba(85, 105, 158, 0.3); 
+  border-radius: 8px;  
+  background: rgba(161, 177, 219, 0.317343);  
+  color: #55699E; 
+  font-size: 17px; 
+  display: inline-block; 
+  @extend %proxima-nova-700;
+} 
+  
+&__info-benefits { 
+  max-width: 450px;  
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;  
+  margin-bottom: 87px;
+}
+
+&__info-benefits-item{  
+  padding: 17px 50px; 
+  border: 1px solid #FFCF00;
+  border-radius: 8px;  
+  background: rgba(255, 207, 0, 0.15); 
+  color: #988B49;
+  font-size: 17px; 
+  display: inline-block;
+  @extend %proxima-nova-700;
+} 
+ 
+&__info-benefits-item--wider{ 
+  padding: 17px 31px;
+}  
+ 
+&__gallery{ 
+  position: relative;
+}
+  
+&__gallery-title{ 
+  padding-bottom: 9px;
+  border-bottom: 1px solid #3a4562;
+  margin-bottom: 21px;
+} 
+ 
+&__gallery-images{ 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;   
+  max-width: 630px; 
+  margin-bottom: 89px;
+} 
+
+&__gallery-img{ 
+  border-radius: 7px;
+} 
+ 
+&__gallery-btn{ 
+  padding: 19px 27px 17px 53px;   
+  background: #F5F5F5;
+  color: #3A4562;
+  border-radius: 8px; 
+  border: 1px solid transparent; 
+  display: inline-block; 
+  @extend %proxima-nova-600; 
+  font-size: 12px; 
+  position: relative; 
+  cursor: pointer;
+} 
+ 
+&__gallery-btn-decor{ 
+  position: absolute;
+  top: 21px;
+  left: 20px;
+}
+
+}
 
 
 @import 'media'; 

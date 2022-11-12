@@ -12,6 +12,7 @@ $(function () {
         e.preventDefault();
         $('.pagination__link').removeClass('pagination__link--active');
         $(this).addClass('pagination__link--active');  
-    });
+    }); 
+     
 
 });

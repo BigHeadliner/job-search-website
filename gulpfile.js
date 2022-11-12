@@ -16,7 +16,7 @@ function browsersync() {
   browserSync.init({ 
     server:{ 
       baseDir: 'app/' ,
-      index: 'page.html'
+      index: 'next-page.html'
     }, 
     notify: false 
   })
