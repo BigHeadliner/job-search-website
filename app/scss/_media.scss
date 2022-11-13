@@ -12,6 +12,29 @@
 
 } 
    
+@media(max-width:1235px) {   
+  
+    //---- details  ----// 
+
+    .details-contact-wrapper{ 
+        flex-wrap: wrap; 
+        justify-content: center;
+    } 
+     
+    .details{ 
+        margin-right: 57px;
+    }  
+     
+    .details__gallery {
+        margin-bottom: 85px;
+    }
+     
+    .contact{ 
+        margin-bottom: 70px;
+    } 
+     
+ } 
+ 
 
   
   @media(max-width:1195px) {
@@ -38,6 +61,8 @@
           font-size: 18px;
       }
   }
+ 
+  
 
 
   @media(max-width:930px) {
@@ -53,9 +78,31 @@
           position: absolute;
           top: 95px;
           right: 23px;
-      }
+      } 
+       
+       //-- details --//     
 
+     .details { 
+        margin-right: 0;
+     } 
+
+  } 
+   
+  @media(max-width: 817px){ 
+      
+    //-- details --//    
+
+   .details__compensation-text::before {
+       position: absolute;
+       top: 7px;
+       left: -14px;
+   }  
+    
+   .details__gallery {
+    margin-bottom: 53px; 
   }
+
+ } 
 
 
   @media(max-width:777px) {
@@ -69,6 +116,16 @@
 
       .work__item-init-date {
           font-size: 15px;
+      } 
+        
+       //-- details --//   
+
+      .details__salary { 
+       flex-wrap: wrap;
+      } 
+       
+      .details__salary-title { 
+       margin-right: 45px;
       }
   } 
    
@@ -93,6 +150,20 @@
       .work__item-left-side {
           max-width: 370px;
           border: 1px solid transparent;
+      }  
+       
+       //-- details --//    
+       
+      .details__salary-right{ 
+        margin: 15px 0;
+      } 
+        
+      .details__info-subtitle {
+        margin-bottom: 15px;
+    } 
+
+      .details__info-employment-item{ 
+        padding: 17px 68px;
       }
 
   } 
@@ -103,9 +174,28 @@
 
       .work__item-left-side {
           max-width: 307px;
-      }
+      } 
+       
+       //-- details --//     
+        
+    .details__info-employment-item {
+        padding: 17px 57px;
+    }   
 
-  } 
+  }  
+   
+  @media(max-width:653px) {    
+     
+     //-- details --// 
+
+    .details__gallery-img--hidden{ 
+        display: none;
+    } 
+     
+    .details__gallery-images{ 
+        max-width: 432px;
+    }
+  }
    
   @media(max-width:607px) {
 
@@ -113,6 +203,30 @@
 
     .work__item-left-side {
         max-width: 237px;
+    } 
+     
+     //-- details --//     
+     
+    .details__info-employment-item {
+        padding: 17px 47px; 
+        font-size: 16px;
+    }   
+     
+    .details__info-benefits{ 
+        margin-bottom: 63px;
+    }
+     
+
+    .details__info-benefits-item{ 
+        font-size: 16px;
+    }  
+     
+    .details__gallery-images{ 
+        margin-bottom: 55px;
+    }
+     
+    .details__gallery-btn{ 
+        display: none;
     }
 
 } 
@@ -136,8 +250,54 @@
         position: absolute;
         top: 5px;
         left: 117px;
+    }  
+     
+      //-- details --// 
+     
+    .details__top{ 
+        flex-wrap: wrap; 
+        border-bottom: 1px solid transparent;
+    } 
+      
+    .details__top-title {
+        margin-left: 0px; 
+        margin-right: 40px;
+        padding: 10px 0;
+        border-bottom: 1px solid #3a4562;
+        width: 100%;
+        margin-bottom: 14px; 
+    } 
+     
+    .details__top-options { 
+        margin: 0 0 7px 0;
+    } 
+     
+    .details__btn--hidden{ 
+        display: none;
+    } 
+     
+    .details__salary-title{ 
+       margin: 10px 0 7px 0;
+    }  
+     
+    .details__info-employment-item {
+        padding: 17px 43px;
+    }  
+     
+    .details__gallery {
+        margin-bottom: 73px;
     }
+        
+    .details__gallery-images {
+        margin-bottom: 0;
+    }  
 
+    //-- contact --//  
+
+    .contact {
+        margin-top: 0;
+    }
+     
 }  
  
 @media(max-width:515px) {  
@@ -166,7 +326,29 @@
   .pagination__list{ 
     border-left: 1px solid #dee3ef; 
     border-right: 1px solid #dee3ef; 
-  }
+  }  
+    
+   //-- details -- //   
+    
+   .details__top-title{ 
+     padding: 24px 0 12px 0;
+   } 
+    
+   .details__salary-title {
+    margin: 23px 0 7px 0; 
+   }
+
+  .details__responsopilities-title {
+    margin-bottom: 20px;
+ } 
+  
+ .details__compensation-title{ 
+    margin-bottom: 35px;
+ } 
+  
+ .details__info-employment-item {
+    padding: 17px 38px;
+}
 
 }
   
@@ -181,6 +363,12 @@
 
     .pagination__list{ 
         margin: 0 auto;
+    }  
+     
+     //-- details -- // 
+     
+    .details__info-employment-item {
+        padding: 17px 35px;
     }
 } 
  
@@ -196,7 +384,39 @@
     .work .pagination__list{ 
         margin: 0 auto; 
         padding: 0 17px;
+    } 
+      
+    //-- details -- //    
+
+    .details__btn{    
+        max-width: 175px;
+        display: block;
+        margin: 0 auto;
+    } 
+     
+    .details__btn--hidden{ 
+        display: none;
+    } 
+     
+      //-- details -- //      
+
+    .details__info-employment-item { 
+        padding: 17px 29px; 
+    } 
+     
+    .details__info-benefits-item {
+        padding: 17px 33px;
+    } 
+     
+    .details__gallery-images{ 
+        flex-wrap: wrap; 
+        justify-content: center;
+    } 
+     
+     .details__gallery-img {
+        margin: 5px 10px;
     }
+
 }   
  
 @media(max-width:427px) { 
@@ -205,8 +425,59 @@
 
     .work .pagination__list {
         padding: 0 9px;
+    } 
+     
+     //-- details -- //       
+
+    .details__info-employment-item{ 
+        padding: 17px 15px 17px 40px;
+    }  
+      
+    .details__info-benefits {
+        max-width: 307px;} 
+
+    .details__info-benefits-item {
+        padding: 17px 10px;
+    } 
+      
+     
+    .details__info {
+        margin-top: 135px;
+    } 
+     
+    .details__gallery {
+        margin-bottom: 63px;
+    } 
+     
+    //-- contact -- //   
+
+    .contact{ 
+        font-size: 16px;
+    }    
+
+    .contact__title{ 
+        display: block;
+    }  
+     
+    
+     
+    .contact__text {
+        padding: 31px 47px 25px;  
+        font-size: 16px; 
+        background-image: none; 
+        background: #2A3047;
     }
+   
+ } 
  
+@media(max-width:412px) {
+
+    //-- details --//       
+
+    .details__info-employment-item {
+        padding: 17px 15px 17px 25px;
+    }
+
 }
 
 @media(max-width:405px) {
@@ -225,6 +496,12 @@
       
      .work .pagination__link {
         padding: 0 13px 11px; 
+    } 
+      
+     //-- contact -- //    
+
+    .contact__text {
+        padding: 31px 40px 25px; 
     }
 
 } 
@@ -272,6 +549,77 @@
     .work .pagination__list {
         padding: 0px; 
         border: 1px solid transparent;
+    } 
+      
+     // -- details -- //   
+
+     .details__top-title{ 
+        margin-right: 0;
+    }
+
+} 
+ 
+@media(max-width: 370px) {
+
+    // -- details -- //   
+
+    .details__top-options {
+        margin: 0px 0 188px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .details__salary-title {
+        margin: 55px 0 7px 0;
+    }
+
+
+    .details__top-save {
+        margin: 0px 80px 11px 0;
+    }  
+     
+    .details__top-share { 
+        margin-left: 0;
+    } 
+     
+    .details__salary-title{ 
+        font-size: 21px;
+    } 
+      
+    .details__info {
+        margin-top: 87px;
+    } 
+
+    .details__info-employment-item {
+        padding: 17px 15px 17px 17px;
+    }  
+
+  
+      //-- contact -- //    
+
+      .contact__text {
+        padding: 28px 25px 28px; 
+    }
+
+ } 
+ 
+@media(max-width: 345px) {
+
+    // -- details -- //   
+     
+    .details__info-employment-item {
+        padding: 15px 10px 15px 11px;
+    } 
+     
+    .details__info-benefits-item {
+        padding: 15px 5px;
+    } 
+      
+    // -- contact -- //   
+
+    .contact__text {
+        padding: 22px 15px 17px;
     }
 
 }
